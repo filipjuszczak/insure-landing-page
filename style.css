@@ -233,6 +233,11 @@ p {
   line-height: 1.7;
 }
 
+*::before,
+*::after {
+  pointer-events: none;
+}
+
 /* header */
 .primary-header {
   position: relative;
@@ -324,6 +329,7 @@ p {
 .intro-image-box {
   grid-row: 1;
 }
+
 .intro-desktop-image {
   display: none;
 }
